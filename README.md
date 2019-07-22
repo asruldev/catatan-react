@@ -38,6 +38,10 @@ cd nama-aplikasi
 yarn start
 ```
 
+Berikut memperlihatkan halaman aplikasi React yang baru saja di-buat.
+
+![React Js](./assets/react-after-install.png)
+
 Berikut memperlihatkan struktur direktori dan halaman web aktual dari aplikasi CRA yang baru saja di-buat.
 
 ```bash
