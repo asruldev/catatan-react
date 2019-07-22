@@ -41,4 +41,20 @@ yarn start
 Berikut memperlihatkan struktur direktori dan halaman web aktual dari aplikasi CRA yang baru saja di-buat.
 
 ```bash
+.
+├── README.md
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   └── serviceWorker.js
+└── yarn.lock
 ```
