@@ -1,44 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# REACT JS
 
-## Available Scripts
+## React
 
-In the project directory, you can run:
+React adalah open source yang sangat membantu untuk membangun UI lebih mudah dan cepat. Jalur pembelajaran ini akan mencakup berbagai API dan tool harus dipertimbangkan untuk meningkatkan kinerja dan kegunaan aplikasi.
 
-### `npm start`
+Panduan ini akan menunjukkan cara untuk bangkit dan berjalan denan aplikasi React. Setiap panduan lain pada buku iniakan membahas topik untuk mengoptimalkan kecepatan atau aksesibilitas aplikasi React.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Kenapa ini membantu banget?
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Ada banyak konten yang menjelaskan cara membuat aplikasi yang cepat dan andal, tetapi tidak banyak yang menunjukkan cara membuat aplikasi React yang cepat dan andal . Panduan ini mencakup semua dari perspektif aplikasi React di mana hanya library, API, dan fitur khusus untuk ekosistem React yang disebutkan.
 
-### `npm test`
+### Apa yang akan kamu pelajari?
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tutorial pada pembelajaran ini *tidak fokus* pada:
 
-### `npm run build`
+- Cara menggunakan React
+- Bagaimana React bekerja
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Meskipun kedua konsep ini akan disentuh saat dibutuhkan, semua panduan dan `kode` di bagian ini akan berfokus pada bagaimana membangun web React yang cepat dan dapat diakses. Untuk alasan ini, diperlukan **pengetahuan dasar React**.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Membuat Aplikasi React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create React App ([CRA](https://facebook.github.io/create-react-app/)) adalah cara termudah untuk memulai membangun aplikasi React. Ini memberikan pengaturan default dengan sejumlah fitur inti yang digunakan, termasuk sistem `build` yang berisi `bundler modul` (webpack) dan transpiler (Babel).
 
-### `npm run eject`
+Pada `shell` atau terminal, Anda hanya perlu menjalankan perintah berikut untuk membuat aplikasi baru:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+create-react-app nama-aplikasi
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Pastikan terlebih dahulu untuk sudah menginstalkan CRA pada komputer anda dengan `sudo yarn global add create-react-app`
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Setelah perintah diatas selesai dieksekusi, Anda dapat menjalankan aplikasi dengan perintah berikut:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+cd nama-aplikasi
+yarn start
+```
 
-## Learn More
+Berikut memperlihatkan struktur direktori dan halaman web aktual dari aplikasi CRA yang baru saja di-buat.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+```
