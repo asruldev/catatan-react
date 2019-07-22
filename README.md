@@ -69,10 +69,8 @@ Struktur direktori aplikasi CRA baru hanya berisi file yang benar-benar perlu An
 
 ## React Dasar
 
-Kalau kata facebook sih, react itu hanaya library kecil yang membantu menghilangkan rasa sakit saat membangun UI pada web atau mobile.
-
 Pada React sendiri memiliki beberapa hal dasar yang harus dipahami:
-1. Comoponent
+1. Component
 2. Props
 3. State
 4. Lifecycle
@@ -106,7 +104,7 @@ export default App
 2. Dengan function
 
 ```javascript
-import React, { Component } from 'react'
+import React from 'react'
 
 const Hello = ({ name }) => (<div>Hello, {name}!</div>);
 
@@ -114,7 +112,9 @@ export default Hello
 ```
 
 Lantas bagai mana cara mengaksesnya?
-Okay, cara mengakses komponent adalah dengan menjaikannya sebagai tag HTML, contoh component Hello akan diakses menjadi `<Hello />`
+Okay, cara mengakses komponen adalah dengan menjadikannya sebagai tag HTML, contoh component Hello akan diakses menjadi `<Hello />`
+
+> Perdu diingat bahwa component harus diawali dengan huruf kapital sehingga sistem dapat membedakan code HTML dan kode Component
 
 ### Props
 Props adalah cara komponent mengoper data ang berasal dari parent ke child dengan kata lain garis lurus kebawah.
