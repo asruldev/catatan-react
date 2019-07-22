@@ -58,3 +58,5 @@ Berikut memperlihatkan struktur direktori dan halaman web aktual dari aplikasi C
 │   └── serviceWorker.js
 └── yarn.lock
 ```
+
+> Meskipun CRA membuatnya mudah untuk mulai membangun aplikasi React, ada banyak cara berbeda untuk mulai membangun situs dengan React. Bisa menggunakan CDN atau lainnya.
