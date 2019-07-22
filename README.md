@@ -1,6 +1,6 @@
 # REACT JS
 
-## React
+## Pengenalan React
 
 React adalah open source yang sangat membantu untuk membangun UI lebih mudah dan cepat. Jalur pembelajaran ini akan mencakup berbagai API dan tool harus dipertimbangkan untuk meningkatkan kinerja dan kegunaan aplikasi.
 
@@ -12,7 +12,7 @@ Ada banyak konten yang menjelaskan cara membuat aplikasi yang cepat dan andal, t
 
 ### Apa yang akan kamu pelajari?
 
-Tutorial pada pembelajaran ini *tidak fokus* pada:
+Tutorial pada pembelajaran ini *tidak hanya fokus* pada:
 
 - Cara menggunakan React
 - Bagaimana React bekerja
@@ -66,3 +66,79 @@ Berikut memperlihatkan struktur direktori dan halaman web aktual dari aplikasi C
 > Meskipun CRA membuatnya mudah untuk mulai membangun aplikasi React, ada banyak cara berbeda untuk mulai membangun situs dengan React. Bisa menggunakan CDN atau lainnya.
 
 Struktur direktori aplikasi CRA baru hanya berisi file yang benar-benar perlu Anda modifikasi untuk bekerja pada aplikasi Anda. [Dokumentasi CRA](https://facebook.github.io/create-react-app/docs/folder-structure) menjelaskan ini secara rinci.
+
+## React Dasar
+
+Kalau kata facebook sih, react itu hanaya library kecil yang membantu menghilangkan rasa sakit saat membangun UI pada web atau mobile.
+
+Pada React sendiri memiliki beberapa hal dasar yang harus dipahami:
+1. Comoponent
+2. Props
+3. State
+4. Lifecycle
+
+### Component
+Component dalam react dapat dibuat dengan 2 cara, yatu dengan membuat class atau dengan membuat function. Tapi apa bedanya class dengan function pasti memiliki kelebihan masing-masing.
+
+1. Dengan class
+
+```javascript
+import React, { Component } from 'react'
+
+class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      name: '',
+    }
+  }
+  
+  render() {
+    return (
+      <div>Wellcome Asrul</div>
+    )
+  }
+}
+
+export default App
+```
+
+2. Dengan function
+
+```javascript
+import React, { Component } from 'react'
+
+const Hello = ({ name }) => (<div>Hello, {name}!</div>);
+
+export default Hello
+```
+
+Lantas bagai mana cara mengaksesnya?
+Okay, cara mengakses komponent adalah dengan menjaikannya sebagai tag HTML, contoh component Hello akan diakses menjadi `<Hello />`
+
+### Props
+Props adalah cara komponent mengoper data ang berasal dari parent ke child dengan kata lain garis lurus kebawah.
+
+```javascript
+<Hello name="Asrul">
+```
+Dari component diatas misal sebuah komponent yang berisi komponent `Hello`, maka itu akan menurunkan data pada component `Hello` dengan props dengan `key` **name** dan `value` **Asrul**
+
+### State
+```javascript
+state = {
+  name: ''
+}
+```
+```javascript
+this.setSetate({
+  name: 'Asrul'
+}, callback)
+```
+
+### Lifecycle
+React sendiri memiliki siklus hidup kompenen, maksudnya saat kapan aksi itu akan dijalankan.
+- componentDidMount()
+- componentWillMount()
+- componentDidUpdate(prevProps, prevState)
+
