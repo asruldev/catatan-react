@@ -2,8 +2,21 @@
 
 ## Daftar Isi
 
+- [Daftar Isi](#daftar-isi)
 - [Pengenalan React](#pengenalan-react)
   - [Kenapa ini membantu banget?](#kenapa-ini-membantu-banget)
+  - [Apa yang akan kamu pelajari?](#apa-yang-akan-kamu-pelajari)
+  - [Membuat Aplikasi React](#membuat-aplikasi-react)
+- [React Dasar](#react-dasar)
+  - [Component](#component)
+  - [Props](#props)
+  - [Mengakses Props](#mengakses-props)
+  - [State](#state)
+  - [Mengubah Nilai State](#mengubah-nilai-state)
+  - [Mengakses State](#mengakses-state)
+  - [Lifecycle](#lifecycle)
+- [React Router DOM](#react-router-dom)
+- [React Redux Thunk](#react-redux-thunk)
 
 ## Pengenalan React
 
