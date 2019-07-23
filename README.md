@@ -1,5 +1,7 @@
 # REACT JS
 
+<div style="page-break-after: always;"></div>
+
 ## Daftar Isi
 
 - [Daftar Isi](#daftar-isi)
@@ -17,6 +19,8 @@
   - [Lifecycle](#lifecycle)
 - [React Router DOM](#react-router-dom)
 - [React Redux Thunk](#react-redux-thunk)
+
+<div style="page-break-after: always;"></div>
 
 ## Pengenalan React
 
@@ -84,6 +88,8 @@ Berikut memperlihatkan struktur direktori dan halaman web aktual dari aplikasi C
 > Meskipun CRA membuatnya mudah untuk mulai membangun aplikasi React, ada banyak cara berbeda untuk mulai membangun situs dengan React. Bisa menggunakan CDN atau lainnya.
 
 Struktur direktori aplikasi CRA baru hanya berisi file yang benar-benar perlu Anda modifikasi untuk bekerja pada aplikasi Anda. [Dokumentasi CRA](https://facebook.github.io/create-react-app/docs/folder-structure) menjelaskan ini secara rinci.
+
+<div style="page-break-after: always;"></div>
 
 ## React Dasar
 
@@ -207,6 +213,8 @@ React sendiri memiliki siklus hidup kompenen, maksudnya saat kapan aksi itu akan
 - componentWillMount()
 - componentDidUpdate(prevProps, prevState)
 
+<div style="page-break-after: always;"></div>
+
 ## React Router DOM
 
 React router dom adalah library kecil untuk membantu pengelolaan route pada web yang menggunakan react js.
@@ -273,6 +281,8 @@ function AboutView({ match }) {
   return <h2>About {match.params.name} </h2>
 }
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## React Redux Thunk
 
