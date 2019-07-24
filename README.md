@@ -473,7 +473,7 @@ Belajar react dasar telah Anda lewati secara singkat, tetapi bagaimana implement
 
 ![Beranda Twitter](./assets/beranda-twitter.png)
 
-![Profile Twitter](./assets/profile-twitter.png)
+![Profil Twitter](./assets/profil-twitter.png)
 
 ### Membuat Halaman Utama
 
