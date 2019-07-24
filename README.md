@@ -467,3 +467,12 @@ const mapDispatchToProps = dispatch => {
 
 export default connect(mapStateToProps,mapDispatchToProps)(News);
 ```
+
+## Implementasi React
+Belajar react dasar telah Anda lewati secara singkat, tetapi bagaimana implementasi react pada sebuat aplikasi? Pada buku ini kita akan membuat aplikasi `kicau`. Aplikasi kicau hanya contoh, aplikasi ini dibuat mirip dengan `twitter` untuk dapat mengimplementasikan pembelajaran sebelumnya.
+
+### Membuat Halaman Utama
+
+### Membuat Component Navigasi
+
+### Membuat Halaman Profile
