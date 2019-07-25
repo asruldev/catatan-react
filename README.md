@@ -480,3 +480,7 @@ Belajar react dasar telah Anda lewati secara singkat, tetapi bagaimana implement
 ### Membuat Component Navigasi
 
 ### Membuat Halaman Profile
+
+## Javascript Dasar
+
+## ES6
