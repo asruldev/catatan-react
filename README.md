@@ -161,6 +161,51 @@ const Hello = ({ props }) => (<div>Hello, {props.name}!</div>);
 export default Hello
 ```
 
+### Validasi Props
+
+Validasi pada props adalah cara yang sangat berguna untuk memaksa penngunaan komponen yang benar. Ini akan sangat membantu selama pengembangan untuk menghindari bug dan masalah yang akan mungkin terjadi setelah aplikasi menjadi lebih besar. Dengan validasi ini juga akan membuat pembacaan kode lebih mudah dipahami, karena dapat melihat bagaimana komponen harus digunakan.
+
+```javascript
+import React, { Component } from 'react'
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h3>Array: {this.props.propArray}</h3>
+          <h3>Bool: {this.props.propBool ? "True..." : "False..."}</h3>
+          <h3>Func: {this.props.propFunc(3)}</h3>
+          <h3>Number: {this.props.propNumber}</h3>
+          <h3>String: {this.props.propString}</h3>
+          <h3>Object: {this.props.propObject.name}</h3>
+      </div>
+    )
+  }
+}
+
+App.propTypes = {
+  propArray: React.PropTypes.array.isRequired,
+  propBool: React.PropTypes.bool.isRequired,
+  propFunc: React.PropTypes.func,
+  propNumber: React.PropTypes.number,
+  propString: React.PropTypes.string,
+  propObject: React.PropTypes.object
+}
+
+App.defaultProps = {
+  propArray: [1,2,3,4,5],
+  propBool: true,
+  propFunc: function(e){return e},
+  propNumber: 1,
+  propString: "String value...",
+  
+  propObject: {
+    name: "Asrul Harahap"
+  }
+}
+export default App;
+```
+
 ### State
 State adalah tempat Anda menyimpan data pada component dan hanya bisa diakses oleh component itu sendiri secara default, tetapi bisa diturunkan pada child jika menggunkan props.
 
