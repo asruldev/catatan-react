@@ -13,6 +13,7 @@
   - [Component](#component)
   - [Props](#props)
   - [Mengakses Props](#mengakses-props)
+  - [Validasi Props](#validasi-props)
   - [State](#state)
   - [Mengubah Nilai State](#mengubah-nilai-state)
   - [Mengakses State](#mengakses-state)
